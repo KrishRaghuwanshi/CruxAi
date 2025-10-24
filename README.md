@@ -31,23 +31,3 @@ Install Dependencies:
 
 pip install -r requirements.txt
 
-
-Set Your API Key:
-This app requires a Google API Key for the Gemini model.
-
-Go to Google AI Studio to generate your key.
-
-You can set this key as an environment variable (recommended for production):
-
-export GOOGLE_API_KEY="YOUR_API_KEY_HERE"
-
-
-...or, you can simply paste it into the sidebar of the Streamlit app when you run it.
-
-Run the App:
-From your terminal, inside the SummarizerApp directory, run:
-
-streamlit run app.py
-
-
-The application will open in your browser.
