@@ -1,0 +1,15 @@
+[theme]
+# A clean, professional blue
+primaryColor="#4A90E2"
+
+# Light gray background for the main app
+backgroundColor="#FAFAFA"
+
+# White background for widgets like sidebar, tabs
+secondaryBackgroundColor="#FFFFFF"
+
+# Dark text for readability
+textColor="#333333"
+
+# Standard, clean font
+font="sans serif"

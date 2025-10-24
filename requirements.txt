@@ -1,0 +1,8 @@
+streamlit
+langchain
+langchain_google_genai
+pypdf
+beautifulsoup4
+requests
+lxml
+python-dotenv
