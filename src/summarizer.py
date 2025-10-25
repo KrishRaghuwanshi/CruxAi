@@ -141,7 +141,7 @@ def generate_social_post(summary: str) -> str:
 
 def generate_twitter_post(summary: str) -> str:
     """
-    Generates a concise Twitter post (≤280 characters) based on the summary, including 2-3 hashtags.
+    Generates a concise Twitter post in short based on the summary, including 2-3 hashtags.
     """
     llm = _get_llm()
     prompt_template = """
