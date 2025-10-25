@@ -1,10 +1,31 @@
 streamlit==1.50.0
 langchain-core==0.3.79
-langchain-text-splitters==1.0.0
+langchain-text-splitters==0.0.2  # Compatible with langchain-core<0.4.0
 langchain-google-genai==2.0.10
-google-generativeai>=0.8.5
+google-generativeai==0.8.5
 pypdf==6.1.3
 beautifulsoup4==4.14.2
 requests==2.32.5
 lxml==6.0.2
 python-dotenv==1.1.1
+altair!=5.4.0,!=5.4.1,<6,>=4.0  # Streamlit dependency
+blinker<2,>=1.5.0              # Streamlit dependency
+cachetools<7,>=4.0             # Streamlit dependency
+click<9,>=7.0                  # Streamlit dependency
+numpy<3,>=1.23                 # Streamlit dependency
+packaging<26,>=20              # Streamlit dependency
+pandas<3,>=1.4.0               # Streamlit dependency
+pillow<12,>=7.1.0              # Streamlit dependency
+protobuf<7,>=3.20              # Streamlit dependency
+pyarrow>=7.0                   # Streamlit dependency
+tenacity<10,>=8.1.0            # Streamlit dependency
+toml<2,>=0.10.1                # Streamlit dependency
+typing-extensions<5,>=4.4.0    # Streamlit dependency
+watchdog<7,>=2.1.5             # Streamlit dependency
+gitpython!=3.1.19,<4,>=3.0.7   # Streamlit dependency
+pydeck<1,>=0.8.0b4             # Streamlit dependency
+tornado!=6.5.0,<7,>=6.0.3      # Streamlit dependency
+langsmith<1.0.0,>=0.3.45       # Langchain-core dependency
+jsonpatch<2.0.0,>=1.33.0       # Langchain-core dependency
+PyYAML<7.0.0,>=5.3.0           # Langchain-core dependency
+pydantic<3.0.0,>=2.7.4         # Langchain-core dependency
