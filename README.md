@@ -1,4 +1,4 @@
-DocAnalyzer: Summarize & Transform
+CruxAi: Summarize & Transform
 
 This is a Streamlit application that uses LangChain and Google's Gemini Pro to summarize large documents and extract additional insights.
 
