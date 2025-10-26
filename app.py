@@ -13,13 +13,12 @@ st.set_page_config(
     initial_sidebar_state="collapsed"
 )
 
-# --- 1. Load API Key from .env file ---
-load_dotenv()
+api_key = os.getenv("GOOGLE_API_KEY")
 
 # --- 2. Add API Key Check ---
 if not os.getenv("GOOGLE_API_KEY"):
-    st.error("🚨 GOOGLE_API_KEY not found in .env file!")
-    st.info("Please create a .env file in the app root directory and add your API key like this: GOOGLE_API_KEY='your_key_here'")
+    st.error("🚨 GOOGLE_API_KEY not found")
+    st.info("Please add your API key like this: GOOGLE_API_KEY='your_key_here'")
     st.stop()
 
 # --- Custom Styling with Dark Mode and Professional Aesthetics ---
