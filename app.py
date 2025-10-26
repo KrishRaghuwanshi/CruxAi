@@ -5,7 +5,7 @@ import src.data_loader as loader
 import src.summarizer as processor
 from dotenv import load_dotenv
 
-# --- Page Configuration ---
+
 st.set_page_config(
     page_title="CruxAi",
     page_icon="🔍",
@@ -15,13 +15,13 @@ st.set_page_config(
 
 api_key = os.getenv("GOOGLE_API_KEY")
 
-# --- 2. Add API Key Check ---
+
 if not os.getenv("GOOGLE_API_KEY"):
     st.error("🚨 GOOGLE_API_KEY not found")
     st.info("Please add your API key like this: GOOGLE_API_KEY='your_key_here'")
     st.stop()
 
-# --- Custom Styling with Dark Mode and Professional Aesthetics ---
+
 st.markdown("""
 <style>
     /* Import Poppins font */
